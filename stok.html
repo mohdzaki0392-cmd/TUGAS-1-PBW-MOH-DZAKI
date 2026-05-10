@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>SITTA</h2>
+  <a href="dashboard.html">Dashboard</a>
+</div>
+
+<div class="main">
+  <div class="card">
+    <h2>Data Bahan Ajar</h2>
+    <table class="table">
+      <tbody id="table"></tbody>
+    </table>
+  </div>
+
+  <div class="card">
+    <h3>Tambah Data</h3>
+    <input id="kode" placeholder="Kode">
+    <input id="nama" placeholder="Nama">
+    <input id="stok" placeholder="Stok">
+    <button onclick="tambahData()">Tambah</button>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/stok.js"></script>
+</body>
+</html>

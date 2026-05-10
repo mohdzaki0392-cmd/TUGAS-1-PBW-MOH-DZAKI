@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="sidebar">
+  <h2>SITTA</h2>
+  <a href="dashboard.html">Dashboard</a>
+  <a href="stok.html">Bahan Ajar</a>
+</div>
+
+<div class="main">
+  <div class="card">
+    <h2>Tracking</h2>
+    <input id="resi" placeholder="Nomor DO">
+    <button onclick="cekResi()">Cari</button>
+    <div id="hasil"></div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+
+<script src="js/data.js"></script>
+<script src="js/tracking.js"></script>
+</body>
+</html>
